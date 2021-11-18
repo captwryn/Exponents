@@ -9,12 +9,15 @@ class MainClass
         int status = 1;
         int x = 1;
 
+        Console.WriteLine("Number \t\tSquared \tCubed");
+        Console.WriteLine("====== \t\t===== \t\t=====");
+
         while (status < 2)
         {
+            
             if (x <= number)
             {
-                gl);
-                Console.WriteLine($"{x}\t{x * x}\t {x * x * x}");
+                Console.WriteLine($"{x}\t\t{x * x}\t\t {x * x * x}");
                 x++;
             }
             else
